@@ -4,7 +4,7 @@ body {
     font-family: Monaco, monospace;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    height: max(90vh, 450px);
+    height: max(90vh, 650px);
 }
 
 .bdiv {
@@ -40,7 +40,14 @@ body {
 }
 
 .cdiv {
-    width: auto;
+    border-radius: 5px;
+    background-color: rgba(77, 77, 77, 0.5);
+    width: max(min(85%, 1095px), 350px);
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    overflow-x: auto;
 }
 
 h1 {
@@ -56,7 +63,7 @@ textarea {
     resize: none;
     height: 55px;
     font-size: 15px;
-    width: 98%;
+    width: 99%;
     border-width: 0px;
     text-wrap: nowrap;
     color: white;
